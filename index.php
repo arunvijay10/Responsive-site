@@ -85,6 +85,56 @@
 </div>
     
 <!--Carousel-----------------------------------------End's---------------------------->
+    
+    
+<!--Sign in-----------------------------------------starts's---------------------------->
+
+<section>
+    <div class="my-5"></div>
+    <h1 class="w-50 m-auto">Sign up</h1>
+    <br>
+        <div class="w-50 m-auto"> <!--width 50 margin auto-->
+        <form action="infouser.php" method="post">
+        <div class="form-group"> <!--class form group its a group of div-->
+            <label>First Name</label>
+            <input type="text" autocomplete="off" class="form-control" >
+            <label class="my-1">Last Name</label>
+            <input type="text" autocomplete="off" class="form-control" >
+            <label class="my-1">Email</label>
+            <input type="email" autocomplete="off" class="form-control" >
+            <label class="my-1">Confirm Email</label>
+            <input type="email" autocomplete="off" class="form-control" >
+            <label class="my-1">Phone</label>
+            <input type="phone" autocomplete="off" class="form-control" >
+            <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="form-group">
+            <label for="pwd">Confirm Password:</label>
+            <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+            </div>
+            <br>
+            <input class="btn btn-outline-dark" type="submit" value="Submit">
+    
+        </div>
+    </form>
+    </div>
+    
+</section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--Sign in-----------------------------------------End's---------------------------->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

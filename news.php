@@ -100,7 +100,7 @@
     <div class="py-4">
     <div class="my-4">
     <div class="container-fluid">
-    <div class="row roew-lg-4 row-cols-2 row-cols-md-4">
+    <div class="row row-lg-4 row-cols-1 row-cols-md-4 col-12">
   <div class="col mb-4">
     <div class="card">
       <img src="images/hack.jpg"  class="size">
@@ -158,7 +158,7 @@
     <div class="py-4">
     <div class="my-4">
     <div class="container-fluid">
-    <div class="row roew-lg-4 row-cols-2 row-cols-md-4">
+    <div class="row row-lg-4 row-cols-1 row-cols-md-4 col-12">
   <div class="col mb-4">
     <div class="card">
       <img src="images/hack.jpg"  class="size">
