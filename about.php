@@ -92,19 +92,31 @@
     
     
 <!-------------------------------------about---------------------------start's---------->
-    <div class="container-fluid">
+   
     <section class="my-5">
         <div class="py-5">
             <h1 class="text-center">About Us</h1>
         </div>
+         <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+            <img src="images/pp5.jpg" class="img-fluid imagechanger">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 aboutpara" >
+            <h1 >Hacker Nation</h1>
+            <p class="py-3"> This might be the most distinctive website we’ve come          across.
+               Anton amd Irene is a design agency based in Manhattan.
+               Why are they a distinctive web presence?
+               Because their page takes parallax scrolling to the next level.
+               The snowy effects, bold colors, and quirky visuals create a truly captivating experience
+            </p>
+            <a href="index.php" class="btn btn-outline-success btns">Hacker</a>
+            
+            </div>
+        </div>
+        </div>
         
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-12">
-            <img src="images/pp5.jpg" class="img-fluid">
-        </div>
-        </div>
     </section>
-    </div>
     
 <!-------------------------------------about---------------------------end's------------>
 

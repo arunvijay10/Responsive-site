@@ -12,5 +12,30 @@
     height: 70vh;
   }
 
+.aboutpara
+{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    float: right;
+}
+.imagechanger
+{
+    height: 550px !important;
+    
+}
+.btns
+{
+    width:80px;
+    height: 40px;
+    
+}
+.between
+{
+    text-align: center;
+}
 
- 
+.size
+{
+    width: 100%;
+    height:350px;
