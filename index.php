@@ -97,23 +97,33 @@
         <form action="infouser.php" method="post">
         <div class="form-group"> <!--class form group its a group of div-->
             <label>First Name</label>
-            <input type="text" autocomplete="off" class="form-control" >
+            <input type="text" autocomplete="off" class="form-control" name="fname" required >
             <label class="my-1">Last Name</label>
-            <input type="text" autocomplete="off" class="form-control" >
+            <input type="text" autocomplete="off" class="form-control" name="lname"  required>
             <label class="my-1">Email</label>
-            <input type="email" autocomplete="off" class="form-control" >
+            <input type="email" autocomplete="off" class="form-control" name="email" required >
             <label class="my-1">Confirm Email</label>
-            <input type="email" autocomplete="off" class="form-control" >
+            <input type="email" autocomplete="off" class="form-control" name="cemail" required >
             <label class="my-1">Phone</label>
-            <input type="phone" autocomplete="off" class="form-control" >
+            <input type="phone" autocomplete="off" class="form-control" name="phone" required >
+            <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Street" autocomplete="off" name="address" required>
+            </div>
+            <div class="form-group">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity" autocomplete="off" name="city" required>
+            </div>
             <div class="form-group">
             <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd">
+            <input type="password" class="form-control" id="pwd" name="pwd"
+            required>
             </div>
             <div class="form-group">
             <label for="pwd">Confirm Password:</label>
-            <input type="password" class="form-control" id="pwd">
+            <input type="password" class="form-control" id="cpwd" name="cpwd" accept=""required>
             </div>
+            
             <div class="checkbox">
             <label><input type="checkbox"> Remember me</label>
             </div>
